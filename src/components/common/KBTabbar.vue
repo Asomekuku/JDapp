@@ -1,8 +1,8 @@
 <!--  -->
 <template>
-<div class='kb-tabbar' route=true>
-    <van-tabbar v-model="active">
-        <van-tabbar-item icon="home-o" to="/home">首页</van-tabbar-item>
+<div class='kb-tabbar' >
+    <van-tabbar v-model="active" :route='true'>
+        <van-tabbar-item  icon="home-o" to="/home">首页</van-tabbar-item>
         <van-tabbar-item icon="eye-o" to="/find">发现</van-tabbar-item>
         <van-tabbar-item icon="cart-o" to="/cart">购物车</van-tabbar-item>
         <van-tabbar-item icon="user-o" to="/user">我的</van-tabbar-item>
